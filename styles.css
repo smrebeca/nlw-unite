@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --border: 1px solid #eae3e3ea;
+  }
+  
+  body,
+  table,
+  input,
+  button {
+    font: 300 16px/140% 'Roboto', sans-serif;
+  }
+  
+  body {
+    background-color: #0a0678;
+    color: #ffffff;
+  }
+  
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px 32px;
+  }
+  
+  header {
+    padding: 20px 0;
+  }
+  
+  form {
+    border: var(--border);
+    border-inline: none;
+    padding: 20px 0;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  fieldset>div {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .input-wrapper {
+    flex: 1;
+  
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  
+    border: var(--border);
+    border-radius: 10px;
+  
+    padding: 8px 12px;
+  
+    font: 400 14px/150% 'Roboto', sans-serif;
+    color: #f2f2f5;
+  }
+  
+  input {
+    all: unset;
+  }
+  
+  fieldset legend,
+  section h2 {
+    font: 700 16px/140% 'Roboto', sans-serif;
+    color: #E1E1E6;
+    padding-bottom: 16px;
+  }
+  
+  fieldset button {
+    width: fit-content;
+    border: 0;
+    background: #d66321;
+    border-radius: 10px;
+    padding: 7px 20px;
+  
+    font: 700 12px/24px 'Roboto', sans-serif;
+    color: #000000;
+  }
+  
+  fieldset button:hover {
+    background: #d66321;
+  }
+  
+  .lista-participantes {
+    padding: 20px 0;
+  }
+  
+  .lista-participantes > div {
+    border: var(--border);
+    border-radius: 8px;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  table thead {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  
+  thead th,
+  tbody td {
+    padding: 12px 16px;
+  }
+  
+  tbody td {
+    border-top: var(--border);
+    font-size: 13px;
+    line-height: 15px;
+    color: #f8f8fa;
+  }
+  
+  tbody td strong {
+    color: white;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+  }
+  
+  tbody td small {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+  tbody td button {
+    all: unset;
+    color: #25ed06d1;
+  }
+  
+  tbody td button:hover {
+    text-decoration: underline;
+  }
